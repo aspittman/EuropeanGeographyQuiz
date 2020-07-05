@@ -1,0 +1,296 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Think you know Europe? Take our quiz and find out! "
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:textColor="#007300"
+            android:fontFamily="casual"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Question 1: \nEurope is the ___ largest continent in the world. "
+            android:textSize="19sp"
+            android:textColor="#007300"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/questionOneButtonOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5th" />
+
+            <RadioButton
+                android:id="@+id/questionOneButtonTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6th" />
+
+            <RadioButton
+                android:id="@+id/questionOneButtonThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7th" />
+
+            <RadioButton
+                android:id="@+id/questionOneButtonFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8th" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:text="Question 2: \nTrue or False, Onega Lake is a major lake in the European Continent?"
+            android:textSize="19sp"
+            android:textColor="#007300"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/questionTwoButtonOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="True" />
+
+            <RadioButton
+                android:id="@+id/questionTwoButtonTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="False" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Question 3: \nWhich one of these are bordering bodies of water?"
+            android:textSize="19sp"
+            android:textColor="#007300"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/questionThreeButtonOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pacific" />
+
+            <CheckBox
+                android:id="@+id/questionThreeButtonTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Atlantic" />
+
+            <CheckBox
+                android:id="@+id/questionThreeButtonThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Black Sea" />
+
+            <CheckBox
+                android:id="@+id/questionThreeButtonFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dead Sea" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Question 4: \nEurope is the ___ most populous continent in the world."
+            android:textSize="19sp"
+            android:textColor="#007300"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/questionFourButtonOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5th" />
+
+            <RadioButton
+                android:id="@+id/questionFourButtonTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4th" />
+
+            <RadioButton
+                android:id="@+id/questionFourButtonThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3rd" />
+
+            <RadioButton
+                android:id="@+id/questionFourButtonFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2nd" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Question 5: \nHow many countries does Europe contain?"
+            android:textSize="19sp"
+            android:textColor="#007300"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/questionFiveButtonOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="40" />
+
+            <RadioButton
+                android:id="@+id/questionFiveButtonTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50" />
+
+            <RadioButton
+                android:id="@+id/questionFiveButtonThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="60" />
+
+            <RadioButton
+                android:id="@+id/questionFiveButtonFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="70" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Question 6: \nWhich city is the capital of Germany?"
+            android:textSize="19sp"
+            android:textColor="#007300"/>
+
+        <EditText
+            android:id="@+id/questionSixField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="city"
+            android:inputType="textCapSentences|textAutoCorrect" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Question 7: \nWhat is the name of the currency they use in the European Union?"
+            android:textSize="19sp"
+            android:textColor="#007300"/>
+
+        <EditText
+            android:id="@+id/questionSevenField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="currency"
+            android:inputType="textCapSentences|textAutoCorrect" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Question 8: \nMajor geographical features of Europe include?"
+            android:textSize="19sp"
+            android:textColor="#007300"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/questionEightButtonOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tundra" />
+
+            <CheckBox
+                android:id="@+id/questionEightButtonTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alps" />
+
+            <CheckBox
+                android:id="@+id/questionEightButtonThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pyrenees" />
+
+            <CheckBox
+                android:id="@+id/questionEightButtonFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desert" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Submit Answers"
+            android:onClick="submitAnswers"
+            android:textColor="#007300"/>
+
+        <TextView
+            android:id="@+id/scoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="---"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</ScrollView>
